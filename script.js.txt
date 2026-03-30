@@ -1,0 +1,5 @@
+function toggle(element) {
+  let content = element.querySelector(".hidden");
+  content.style.display =
+    content.style.display === "block" ? "none" : "block";
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>404 Conference</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="logo">404</div>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#secretariat">Secretariat</a></li>
+    <li><a href="#committees">Committees</a></li>
+    <li><a href="#venue">Venue</a></li>
+    <li><a href="#eb">EB Applications</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>404</h1>
+  <p>The Future of Conferences</p>
+</section>
+
+<!-- DETAILS SECTION -->
+<section class="details">
+  <div class="card">
+    <h2>BLR</h2>
+    <p>Location</p>
+  </div>
+  <div class="card">
+    <h2>500+</h2>
+    <p>Delegates Expected</p>
+  </div>
+  <div class="card">
+    <h2>8+</h2>
+    <p>Committees</p>
+  </div>
+</section>
+
+<!-- SECRETARIAT -->
+<section id="secretariat" class="scroll-section">
+  <h2>Secretariat</h2>
+  <div class="horizontal-scroll">
+    <div class="scroll-item">Image 1</div>
+    <div class="scroll-item">Image 2</div>
+    <div class="scroll-item">Image 3</div>
+    <div class="scroll-item">Image 4</div>
+    <div class="scroll-item">Image 5</div>
+    <div class="scroll-item">Image 6</div>
+    <div class="scroll-item">Image 7</div>
+    <div class="scroll-item">Image 8</div>
+  </div>
+</section>
+
+<!-- COMMITTEES -->
+<section id="committees">
+  <h2>Committees</h2>
+  <div class="grid">
+    <a href="committee.html">UN Human Rights</a>
+    <a href="committee.html">Historical Crisis</a>
+    <a href="committee.html">International Press Corps</a>
+    <a href="committee.html">UN Security Council</a>
+    <a href="committee.html">UNODC</a>
+    <a href="committee.html">Lok Sabha</a>
+    <a href="committee.html">Red Cross</a>
+    <a href="committee.html">G20 Board</a>
+  </div>
+</section>
+
+<!-- VENUE -->
+<section id="venue">
+  <h2>Take a Closer Look</h2>
+
+  <div class="venue-card" onclick="toggle(this)">
+    <h3>Venue</h3>
+    <div class="hidden">
+      <p>Location: Bangalore</p>
+      <p>How to get there: (add later)</p>
+      <p>Description: (add later)</p>
+    </div>
+  </div>
+</section>
+
+<!-- EB APPLICATION -->
+<section id="eb">
+  <h2>EB Applications</h2>
+  <a href="https://forms.google.com" class="btn">Apply Now</a>
+
+  <div class="positions">
+    <p>Chairperson — OPEN</p>
+    <p>Vice Chairperson — OPEN</p>
+    <p>Moderator — OPEN</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: the404conference@gmail.com</p>
+  <p>Phone: 9731200505</p>
+  <p>Instagram: @the404conference</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
